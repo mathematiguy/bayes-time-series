@@ -9,7 +9,7 @@ output:
 library(bsts)
 library(readr)
 
-gilbralter <- read_csv("gilbraltersimple.csv")  
+gilbralter <- read_csv("data/gilbraltersimple.csv")  
 gilb <- ts(gilbralter$tempMean, start=c(2004,1,13), end=c(2017, 11, 25), frequency=30)
 ```
 
