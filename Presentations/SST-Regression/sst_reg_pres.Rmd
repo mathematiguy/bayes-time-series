@@ -14,7 +14,6 @@ output: beamer_presentation
 ```{r setup, include=FALSE, echo = FALSE}
 knitr::opts_chunk$set(fig.align = 'center', out.width = '90%',
                       message = FALSE, cache = TRUE)
-setwd("~/Desktop/STAT676/bayes-time-series/Presentations/SST-Regression")
 ```
 
 
